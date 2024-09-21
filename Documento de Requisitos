@@ -1,0 +1,79 @@
+### Estrutura do Documento de Requisitos
+
+---
+
+#### **1. Introdução**
+   - **Nome do Projeto**: ForgeMyHero
+   - **Descrição Geral**: O ForgeMyHero é um sistema de criação automática de fichas de personagens para Dungeons & Dragons (D&D). O objetivo do projeto é facilitar a criação de personagens para jogadores novatos, que podem ter dificuldade em entender as regras, e para jogadores experientes que desejam um processo rápido e eficiente. O sistema preenche automaticamente as características do personagem com base nas escolhas do jogador e sugere otimizações de atributos e habilidades.
+
+---
+
+#### **2. Objetivos**
+   - **Facilitar a criação de fichas de D&D** de maneira automatizada, economizando tempo dos jogadores.
+   - **Ajudar novos jogadores a entenderem as regras** do jogo com descrições e guias claros.
+   - **Permitir customização completa da ficha**, com opções para jogadores mais avançados.
+
+---
+
+#### **3. Requisitos Funcionais**
+   - **3.1 Preenchimento Automático de Atributos**
+     - O sistema deve preencher automaticamente os atributos (Força, Destreza, etc.) com base nas escolhas de raça e classe.
+   - **3.2 Seleção Guiada de Raça, Classe e Background**
+     - O jogador deverá ser guiado em uma interface passo a passo para escolher raça, classe e background (origem) do personagem.
+   - **3.3 Aplicação Automática de Habilidades**
+     - O sistema deverá aplicar automaticamente as habilidades raciais e de classe do personagem, incluindo modificadores e bônus.
+   - **3.4 Sugestões Baseadas em Estilo de Jogo**
+     - O jogador poderá escolher um estilo de jogo (focado em combate, magia, suporte) e o sistema sugerirá opções adequadas para otimização.
+   - **3.5 Exibição em Tempo Real da Ficha**
+     - Conforme o jogador faz suas escolhas, a ficha será atualizada em tempo real.
+   - **3.6 Exportação de Fichas**
+     - O sistema deverá permitir que o jogador exporte a ficha finalizada em PDF.
+   - **3.7 Customização de Inventário e Equipamentos**
+     - Permitir que o jogador personalize itens e equipamentos com base nas regras do jogo.
+
+---
+
+#### **4. Requisitos Não Funcionais**
+   - **4.1 Performance e Responsividade**
+     - O sistema deverá ser rápido e responsivo, com preenchimento automático imediato.
+   - **4.2 Escalabilidade**
+     - O sistema deverá suportar múltiplos usuários simultâneos, sem perda de performance.
+   - **4.3 Segurança**
+     - Implementação de autenticação de usuário e proteção dos dados das fichas criadas, com HTTPS para comunicação segura.
+   - **4.4 Usabilidade**
+     - O design da interface deverá ser simples, intuitivo e amigável para jogadores de todos os níveis.
+
+---
+
+#### **5. Regras de Negócio**
+   - **5.1 Limites de Atributos**: O sistema deverá respeitar as regras de distribuição de pontos e limites de atributos para cada raça e classe, conforme as regras do D&D.
+   - **5.2 Modificadores e Habilidades Específicas**: O sistema deverá calcular automaticamente os modificadores e habilidades adicionais baseadas em classe, raça e nível do personagem.
+   - **5.3 Validação de Regras Customizadas**: Ao adicionar regras customizadas, o sistema deverá validar a integridade dessas novas regras para que não quebrem o funcionamento geral.
+
+---
+
+#### **6. Casos de Uso (Exemplos)**
+   - **6.1 Criação de Ficha por Jogador Iniciante**
+     - O jogador seleciona um tutorial guiado que explica passo a passo as escolhas de classe, raça e atributos, e o sistema gera a ficha com sugestões automáticas.
+   - **6.2 Criação de Ficha por Jogador Experiente**
+     - O jogador escolhe raça e classe manualmente, personalizando cada detalhe da ficha sem sugestões automáticas.
+   - **6.3 Exportação de Ficha em PDF**
+     - Após concluir as escolhas, o jogador exporta a ficha finalizada para PDF.
+
+---
+
+#### **7. Restrições**
+   - **7.1 Dependência de Conexão com a Internet**
+     - O sistema será uma aplicação web, portanto dependerá de uma conexão estável para funcionar corretamente.
+   - **7.2 Atualização de Regras do D&D**
+     - O sistema deverá ser atualizado com novas regras oficiais do D&D, caso a Wizards of the Coast lance versões revisadas.
+
+---
+
+#### **8. Glossário**
+   - **Atributos**: Valores que representam as capacidades físicas e mentais do personagem.
+   - **Raça**: Determina características biológicas e habilidades raciais do personagem.
+   - **Classe**: Define as habilidades principais e o estilo de jogo do personagem.
+   - **Background (Origem)**: História e habilidades adicionais que o personagem possui.
+
+---
