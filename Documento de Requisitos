@@ -48,8 +48,6 @@
 #### **5. Regras de Negócio**
    - **5.1 Limites de Atributos**: O sistema deverá respeitar as regras de distribuição de pontos e limites de atributos para cada raça e classe, conforme as regras do D&D.
    - **5.2 Modificadores e Habilidades Específicas**: O sistema deverá calcular automaticamente os modificadores e habilidades adicionais baseadas em classe, raça e nível do personagem.
-   - **5.3 Validação de Regras Customizadas**: Ao adicionar regras customizadas, o sistema deverá validar a integridade dessas novas regras para que não quebrem o funcionamento geral.
-
 ---
 
 #### **6. Casos de Uso (Exemplos)**
